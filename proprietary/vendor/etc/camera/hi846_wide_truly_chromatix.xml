@@ -81,7 +81,16 @@ special_mode_mask values:
     <ChromatixName>
       <ISPCommon>hi846_wide_truly_common</ISPCommon>
       <PostProc>hi846_wide_truly_postproc</PostProc>
+      <!--//+bug458858 jim.fu.wt, add, 2019/07/19,camera cpp preview panorama chromatix distinction  -->
+      <CPPPreview_PANORAMA>hi846_wide_truly_cpp_preview_panorama</CPPPreview_PANORAMA>
       <CPPPreview>hi846_wide_truly_cpp_preview</CPPPreview>
+ <!-- +bug458858 maliping.wt, add, 2019/07/19,camera chromatix distinction
+#if 1 //CHROMATIX_DISTINCTION -->
+       <CPPSnapshot_HDR>hi846_wide_truly_cpp_snapshot_hdr</CPPSnapshot_HDR>  
+       <CPPSnapshot_MFNR>hi846_wide_truly_cpp_snapshot_mfnr</CPPSnapshot_MFNR>  
+       <CPPSnapshot_PANORAMA>hi846_wide_truly_cpp_snapshot_panorama</CPPSnapshot_PANORAMA>
+ <!--#endif //CHROMATIX_DISTINCTION
+-bug458858 maliping.wt, add, 2019/07/19,camera chromatix distinction-->
       <CPPSnapshot>hi846_wide_truly_cpp_snapshot</CPPSnapshot>
       <CPPLiveshot>hi846_wide_truly_cpp_liveshot</CPPLiveshot>
     </ChromatixName>
@@ -92,6 +101,11 @@ special_mode_mask values:
       <ISPSnapshot>hi846_wide_truly_snapshot</ISPSnapshot>
       <ISPVideo>hi846_wide_truly_default_video</ISPVideo>
       <CPPVideo>hi846_wide_truly_cpp_video</CPPVideo>
+ <!-- +bug458858 maliping.wt, add, 2019/07/19,camera chromatix distinction
+#if 1 //CHROMATIX_DISTINCTION -->      
+      <A3Preview_PANORAMA>hi846_wide_truly_zsl_preview_3a_panorama</A3Preview_PANORAMA>      
+ <!--#endif //CHROMATIX_DISTINCTION
+-bug458858 maliping.wt, add, 2019/07/19,camera chromatix distinction-->      
       <A3Preview>hi846_wide_truly_zsl_preview_3a</A3Preview>
       <A3Video>hi846_wide_truly_zsl_video_3a</A3Video>
     </ChromatixName>
@@ -100,6 +114,8 @@ special_mode_mask values:
       <ISPSnapshot>hi846_wide_truly_preview</ISPSnapshot>
       <ISPVideo>hi846_wide_truly_preview</ISPVideo>
       <CPPVideo>hi846_wide_truly_cpp_video</CPPVideo>
+      <!--ExtB P200605-07237,yangyuncheng.wt,ADD,2020/06/09,dark hair shows dark in dark environment in PANORAMA mode-->
+      <A3Preview_PANORAMA>hi846_wide_truly_zsl_preview_3a_panorama</A3Preview_PANORAMA>
       <A3Preview>hi846_wide_truly_default_preview_3a</A3Preview>
       <A3Video>hi846_wide_truly_default_video_3a</A3Video>
     </ChromatixName>

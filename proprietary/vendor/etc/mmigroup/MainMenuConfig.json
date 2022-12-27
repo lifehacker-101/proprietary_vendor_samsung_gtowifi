@@ -8,6 +8,12 @@
       "activity": "com.factory.mmigroup.MMIGroupNormalMode",
       "testResult": "MMIGroupNormalTag",
       "secret_code1": [
+        {
+          "code": "*#*#88#*#*"
+        },
+        {
+          "code": "*#*#6484#*#*"
+        }
       ]
     },
     {

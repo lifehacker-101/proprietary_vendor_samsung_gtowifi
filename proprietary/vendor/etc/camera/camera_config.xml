@@ -89,7 +89,7 @@ LensInfo : Information of the lens present in the module.
  <CameraModuleConfig>
     <CameraId>0</CameraId>
     <SensorName>hi846</SensorName>
-     <ActuatorName>dw9714</ActuatorName>
+    <ActuatorName>dw9714</ActuatorName>
     <EepromName>hi846</EepromName>
     <ChromatixName>hi846_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>
@@ -110,6 +110,7 @@ LensInfo : Information of the lens present in the module.
       <MinFocusDistance>0.1</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
+<!--bug 601075, jiaozhibin.wt, modify, 2020/1118, modify for p81081 bringup camera-->
   <CameraModuleConfig>
     <CameraId>1</CameraId>
     <SensorName>gc2375h</SensorName>
@@ -124,7 +125,8 @@ LensInfo : Information of the lens present in the module.
       <ComboMode>0</ComboMode>
     </CSIInfo>
     <LensInfo>
-      <FocalLength>1.96</FocalLength>
+      <!--ExtB P200522-06192,huangguoyong.wt,2020.06.04,modify FocalLength matches the configuration table-->
+      <FocalLength>1.964</FocalLength>
       <FNumber>2.4</FNumber>
       <TotalFocusDistance>1.9</TotalFocusDistance>
       <HorizontalViewAngle>83.2</HorizontalViewAngle>
@@ -132,6 +134,80 @@ LensInfo : Information of the lens present in the module.
       <MinFocusDistance>0.1</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
+<!--bug 601075, jiaozhibin.wt, modify, 2020/11/18, modify for p81081 bringup camera-->
+<!--bug 601075,jiaozhibin.wt,add, 2020.11.20,P81081DA7 project add for gc2375h_lhyx bring up-->
+  <CameraModuleConfig>
+    <CameraId>1</CameraId>
+    <SensorName>gc2375h_lhyx</SensorName>
+    <ChromatixName>gc2375h_lhyx_chromatix</ChromatixName>
+    <ModesSupported>1</ModesSupported>
+    <Position>FRONT</Position>
+    <MountAngle>270</MountAngle>
+    <CSIInfo>
+      <CSIDCore>1</CSIDCore>
+      <LaneMask>0x13</LaneMask>
+      <LaneAssign>0x20</LaneAssign>
+      <ComboMode>0</ComboMode>
+    </CSIInfo>
+    <LensInfo>
+      <FocalLength>1.964</FocalLength>
+      <FNumber>2.4</FNumber>
+      <TotalFocusDistance>1.9</TotalFocusDistance>
+      <HorizontalViewAngle>83.2</HorizontalViewAngle>
+      <VerticalViewAngle>47.9</VerticalViewAngle>
+      <MinFocusDistance>0.1</MinFocusDistance>
+    </LensInfo>
+  </CameraModuleConfig>
+<!--bug 601075,jiaozhibin.wt,add, 2020.11.20,P81081DA7 project add for gc2375h_lhyx bring up-->
+  <!--bug 515614,huangguoyong,add, 2020.08.31,N8 project camera driver code for bf2253L bring up-->
+  <CameraModuleConfig>
+    <CameraId>1</CameraId>
+    <SensorName>bf2253L</SensorName>
+    <ChromatixName>bf2253L_chromatix</ChromatixName>
+    <ModesSupported>1</ModesSupported>
+    <Position>FRONT</Position>
+    <MountAngle>270</MountAngle>
+    <CSIInfo>
+      <CSIDCore>1</CSIDCore>
+      <LaneMask>0x13</LaneMask>
+      <LaneAssign>0x20</LaneAssign>
+      <ComboMode>0</ComboMode>
+    </CSIInfo>
+    <LensInfo>
+      <FocalLength>1.964</FocalLength>
+      <FNumber>2.4</FNumber>
+      <TotalFocusDistance>1.9</TotalFocusDistance>
+      <HorizontalViewAngle>71.9</HorizontalViewAngle>
+      <VerticalViewAngle>57.1</VerticalViewAngle>
+      <MinFocusDistance>0.1</MinFocusDistance>
+    </LensInfo>
+  </CameraModuleConfig>
+  <!--bug 515614,huangguoyong,add, 2020.08.31,N8 project camera driver code for bf2253L bring up-->
+  <!--bug 601075,huangzheng1.wt, modify,2020/11/20,modify for p81081 bringup camera-->
+  <CameraModuleConfig>
+    <CameraId>1</CameraId>
+    <SensorName>hi259</SensorName>
+    <ChromatixName>hi259_chromatix</ChromatixName>
+    <ModesSupported>1</ModesSupported>
+    <Position>FRONT</Position>
+    <MountAngle>270</MountAngle>
+    <CSIInfo>
+      <CSIDCore>1</CSIDCore>
+      <LaneMask>0x13</LaneMask>
+      <LaneAssign>0x20</LaneAssign>
+      <ComboMode>0</ComboMode>
+    </CSIInfo>
+    <LensInfo>
+      <FocalLength>1.924</FocalLength>
+      <FNumber>2.4</FNumber>
+      <TotalFocusDistance>4.119</TotalFocusDistance>
+      <HorizontalViewAngle>72.4</HorizontalViewAngle>
+      <VerticalViewAngle>57.4</VerticalViewAngle>
+      <MinFocusDistance>0.21</MinFocusDistance>
+    </LensInfo>
+  </CameraModuleConfig>
+  <!--bug 601075,huangzheng1.wt, modify,2020/11/20,modify for p81081 bringup camera-->
+  <!--bug 601075,huangzheng1.wt, modify,2020/11/23,modify for p81081 bringup camera-->
   <CameraModuleConfig>
     <CameraId>0</CameraId>
     <SensorName>gc8034</SensorName>
@@ -148,7 +224,7 @@ LensInfo : Information of the lens present in the module.
       <ComboMode>0</ComboMode>
     </CSIInfo>
     <LensInfo>
-      <FocalLength>3.83</FocalLength>
+      <FocalLength>2.79</FocalLength>
       <FNumber>2.0</FNumber>
       <TotalFocusDistance>1.97</TotalFocusDistance>
       <HorizontalViewAngle>63.2</HorizontalViewAngle>
@@ -170,7 +246,7 @@ LensInfo : Information of the lens present in the module.
       <ComboMode>0</ComboMode>
     </CSIInfo>
     <LensInfo>
-      <FocalLength>1.96</FocalLength>
+      <FocalLength>1.928</FocalLength>
       <FNumber>2.4</FNumber>
       <TotalFocusDistance>1.9</TotalFocusDistance>
       <HorizontalViewAngle>83.2</HorizontalViewAngle>
@@ -178,4 +254,5 @@ LensInfo : Information of the lens present in the module.
       <MinFocusDistance>0.1</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
+  <!--bug 601075,huangzheng1.wt, modify,2020/11/23,modify for p81081 bringup camera-->
 </CameraConfigurationRoot>

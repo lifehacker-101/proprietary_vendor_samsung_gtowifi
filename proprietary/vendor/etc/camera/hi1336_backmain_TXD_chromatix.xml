@@ -88,21 +88,84 @@ special_mode_mask values:
       <ISPPreview>hi1336_backmain_TXD_snapshot</ISPPreview>
       <ISPSnapshot>hi1336_backmain_TXD_snapshot</ISPSnapshot>
       <ISPVideo>hi1336_backmain_TXD_default_video</ISPVideo>
+      <!--//+bug458858 jim.fu.wt, add, 2019/07/19,camera cpp preview panorama chromatix distinction  -->
+      <CPPPreview_PANORAMA>hi1336_backmain_TXD_cpp_preview_panorama</CPPPreview_PANORAMA>  
       <CPPPreview>hi1336_backmain_TXD_cpp_preview</CPPPreview>
+ <!-- +bug458858 maliping.wt, add, 2019/07/19,camera chromatix distinction
+#if 1 //CHROMATIX_DISTINCTION -->
+       <CPPSnapshot_HDR>hi1336_backmain_TXD_cpp_snapshot_hdr</CPPSnapshot_HDR>  
+       <CPPSnapshot_MFNR>hi1336_backmain_TXD_cpp_snapshot_mfnr</CPPSnapshot_MFNR>
+       <CPPSnapshot_PANORAMA>hi1336_backmain_TXD_cpp_snapshot_panorama</CPPSnapshot_PANORAMA>  
+       <CPPSnapshot_BOKEH>hi1336_backmain_TXD_cpp_snapshot_bokeh</CPPSnapshot_BOKEH>
+ <!--#endif //CHROMATIX_DISTINCTION
+-bug458858 maliping.wt, add, 2019/07/19,camera chromatix distinction-->
       <CPPSnapshot>hi1336_backmain_TXD_cpp_snapshot</CPPSnapshot>
       <CPPVideo>hi1336_backmain_TXD_cpp_video</CPPVideo>
       <CPPLiveshot>hi1336_backmain_TXD_cpp_liveshot</CPPLiveshot>
+  <!-- +bug458858 maliping.wt, add, 2019/07/19,camera chromatix distinction
+#if 1 //CHROMATIX_DISTINCTION -->     
+      <A3Preview_PANORAMA>hi1336_backmain_TXD_zsl_preview_3a_panorama</A3Preview_PANORAMA>    
+ <!--#endif //CHROMATIX_DISTINCTION
+-bug458858 maliping.wt, add, 2019/07/19,camera chromatix distinction-->
+<!-- +P191030-07143,yinjie.wt,20191107,modify,for line video call low gain with chromatix distinction -->
+      <A3Preview_LINE>hi1336_backmain_TXD_line_preview_3a</A3Preview_LINE>
+ <!-- -P191030-07143,yinjie.wt,20191107,modify,for line video call low gain with chromatix distinction-->
       <A3Preview>hi1336_backmain_TXD_zsl_preview_3a</A3Preview>
       <A3Video>hi1336_backmain_TXD_zsl_video_3a</A3Video>
     </ChromatixName>
-    <ChromatixName sensor_resolution_index="1" special_mode_mask="0">
-      <ISPPreview>hi1336_backmain_TXD_snapshot</ISPPreview>
-      <ISPSnapshot>hi1336_backmain_TXD_snapshot</ISPSnapshot>
-      <ISPVideo>hi1336_backmain_TXD_default_video_4k</ISPVideo>
+  <!--  <ChromatixName sensor_resolution_index="0" special_mode_mask="hht">   
       <CPPPreview>hi1336_backmain_TXD_cpp_preview</CPPPreview>
+      <CPPSnapshot>hi1336_backmain_TXD_cpp_snapshot_hht</CPPSnapshot>
+      <A3Preview>hi1336_backmain_TXD_zsl_preview_3a</A3Preview>
+    </ChromatixName>
+    <ChromatixName sensor_resolution_index="0" special_mode_mask="portrait">
+      <ISPPreview>hi1336_backmain_TXD_snapshot_portrait</ISPPreview>
+      <ISPSnapshot>hi1336_backmain_TXD_snapshot_portrait</ISPSnapshot>
+      <CPPPreview>hi1336_backmain_TXD_cpp_preview_portrait</CPPPreview>
+      <CPPSnapshot>hi1336_backmain_TXD_cpp_snapshot_portrait</CPPSnapshot>
+      <A3Preview>hi1336_backmain_TXD_zsl_preview_3a_portrait</A3Preview>
+    </ChromatixName>
+    <ChromatixName sensor_resolution_index="0" special_mode_mask="HDR">
+      <CPPPreview>hi1336_backmain_TXD_cpp_preview</CPPPreview>
+      <CPPSnapshot>hi1336_backmain_TXD_cpp_snapshot_HDR</CPPSnapshot>
+      <A3Preview>hi1336_backmain_TXD_zsl_preview_3a_HDR</A3Preview>
+    </ChromatixName>
+    <ChromatixName sensor_resolution_index="0" special_mode_mask="panorama">
+      <ISPPreview>hi1336_backmain_TXD_snapshot_panorama</ISPPreview>
+      <ISPSnapshot>hi1336_backmain_TXD_snapshot_panorama</ISPSnapshot>
+      <CPPPreview>hi1336_backmain_TXD_cpp_preview_panorama</CPPPreview>
+      <CPPSnapshot>hi1336_backmain_TXD_cpp_snapshot_panorama</CPPSnapshot>
+      <A3Preview>hi1336_backmain_TXD_zsl_preview_3a_panorma</A3Preview>
+    </ChromatixName>
+    <ChromatixName sensor_resolution_index="0" special_mode_mask="QQ/wechat"> 
+      <ISPPreview>hi1336_backmain_TXD_snapshot_wechat</ISPPreview>
+      <ISPVideo>hi1336_backmain_TXD_video_wechat</ISPVideo>
+      <CPPPreview>hi1336_backmain_TXD_cpp_preview_wechat</CPPPreview>
+      <CPPVideo>hi1336_backmain_TXD_cpp_video_wechat</CPPVideo>
+      <A3Preview>hi1336_backmain_TXD_zsl_preview_3a_wechat</A3Preview>
+      <A3Video>hi1336_backmain_TXD_zsl_video_3a_wechat</A3Video>
+    </ChromatixName>  -->
+    <ChromatixName sensor_resolution_index="1" special_mode_mask="0">
+      <ISPPreview>hi1336_backmain_TXD_preview</ISPPreview>
+      <ISPSnapshot>hi1336_backmain_TXD_preview</ISPSnapshot>
+      <ISPVideo>hi1336_backmain_TXD_preview</ISPVideo>
+      <!--//+bug458858 jim.fu.wt, add, 2019/07/19,camera cpp preview panorama chromatix distinction  -->
+      <CPPPreview_PANORAMA>hi1336_backmain_TXD_cpp_preview_panorama</CPPPreview_PANORAMA>  
+      <CPPPreview>hi1336_backmain_TXD_cpp_preview</CPPPreview>
+ <!-- +bug458858 maliping.wt, add, 2019/07/19,camera chromatix distinction
+#if 1 //CHROMATIX_DISTINCTION -->
+       <CPPSnapshot_HDR>hi1336_backmain_TXD_cpp_snapshot_hdr</CPPSnapshot_HDR>  
+       <CPPSnapshot_MFNR>hi1336_backmain_TXD_cpp_snapshot_mfnr</CPPSnapshot_MFNR> 
+       <CPPSnapshot_PANORAMA>hi1336_backmain_TXD_cpp_snapshot_panorama</CPPSnapshot_PANORAMA>  
+       <CPPSnapshot_BOKEH>hi1336_backmain_TXD_cpp_snapshot_bokeh</CPPSnapshot_BOKEH>
+ <!--#endif //CHROMATIX_DISTINCTION
+-bug458858 maliping.wt, add, 2019/07/19,camera chromatix distinction-->
       <CPPSnapshot>hi1336_backmain_TXD_cpp_snapshot</CPPSnapshot>
       <CPPVideo>hi1336_backmain_TXD_cpp_video_4k</CPPVideo>
       <CPPLiveshot>hi1336_backmain_TXD_cpp_liveshot</CPPLiveshot>
+<!-- +P191030-07143,yinjie.wt,20191107,modify,for line video call low gain with chromatix distinction -->
+      <A3Preview_LINE>hi1336_backmain_TXD_line_preview_3a</A3Preview_LINE>
+ <!-- -P191030-07143,yinjie.wt,20191107,modify,for line video call low gain with chromatix distinction-->
       <A3Preview>hi1336_backmain_TXD_4k_preview_3a</A3Preview>
       <A3Video>hi1336_backmain_TXD_4k_video_3a</A3Video>
     </ChromatixName>
@@ -111,6 +174,16 @@ special_mode_mask values:
       <ISPSnapshot>hi1336_backmain_TXD_preview</ISPSnapshot>
       <ISPVideo>hi1336_backmain_TXD_default_video</ISPVideo>
       <CPPPreview>hi1336_backmain_TXD_cpp_preview</CPPPreview>
+      <!--//+bug458858 jim.fu.wt, add, 2019/07/19,camera cpp preview panorama chromatix distinction  -->
+      <CPPPreview_PANORAMA>hi1336_backmain_TXD_cpp_preview_panorama</CPPPreview_PANORAMA>  
+ <!-- +bug458858 maliping.wt, add, 2019/07/19,camera chromatix distinction
+#if 1 //CHROMATIX_DISTINCTION -->
+       <CPPSnapshot_HDR>hi1336_backmain_TXD_cpp_snapshot_hdr</CPPSnapshot_HDR>  
+       <CPPSnapshot_MFNR>hi1336_backmain_TXD_cpp_snapshot_mfnr</CPPSnapshot_MFNR>
+       <CPPSnapshot_PANORAMA>hi1336_backmain_TXD_cpp_snapshot_panorama</CPPSnapshot_PANORAMA>  
+       <CPPSnapshot_BOKEH>hi1336_backmain_TXD_cpp_snapshot_bokeh</CPPSnapshot_BOKEH>
+ <!--#endif //CHROMATIX_DISTINCTION
+-bug458858 maliping.wt, add, 2019/07/19,camera chromatix distinction-->
       <CPPSnapshot>hi1336_backmain_TXD_cpp_snapshot</CPPSnapshot>
       <CPPVideo>hi1336_backmain_TXD_cpp_video</CPPVideo>
       <CPPLiveshot>hi1336_backmain_TXD_cpp_liveshot</CPPLiveshot>

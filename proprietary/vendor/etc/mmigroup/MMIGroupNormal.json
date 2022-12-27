@@ -15,7 +15,6 @@
       "showName": "VersionInfo",
       "paramconfig": {
         "AddInfo": {
-          "eSEPLC": "any",
           "TPcolor": "any",
           "CPUID": "any",
           "TP": "any",
@@ -39,9 +38,6 @@
           }
         }
       }
-    },
-    {
-      "showName": "MainMicToReceiver"
     },
     {
       "showName": "Vibrator",
@@ -79,7 +75,7 @@
     },
     {
       "showName": "LCD",
-      "action": "com.mmigroup.action.LCDUP",
+      "action": "com.mmigroup.action.LCD",
       "support": true,
       "automatic": false,
       "support_autoTest_autopass": false,
@@ -108,6 +104,9 @@
     },
     {
       "showName": "Receiver"
+    },
+    {
+      "showName": "MainMicToReceiver"
     },
     {
       "showName": "Backlight"

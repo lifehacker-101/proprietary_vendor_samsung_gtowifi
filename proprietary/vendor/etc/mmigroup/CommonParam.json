@@ -51,6 +51,19 @@
       "MEID": true
     }
   },
+  "P81081EA5": {
+    "call": {
+      "com.mmigroup.radiosupport.GSM": true,
+      "com.mmigroup.radiosupport.CDMA": true,
+      "com.mmigroup.radiosupport.TDCDMA": true,
+      "com.mmigroup.radiosupport.WCDMA": true,
+      "com.mmigroup.radiosupport.TDD": true,
+      "com.mmigroup.radiosupport.FDD": true
+    },
+    "systemConfig": {
+      "MEID": true
+    }
+  },
   "P81081EA1_2": {
     "call": {
       "com.mmigroup.radiosupport.GSM": true,
@@ -65,6 +78,16 @@
     }
   },
   "P81081DA1": {
+    "call": {
+      "com.mmigroup.radiosupport.GSM": true,
+      "com.mmigroup.radiosupport.CDMA": false,
+      "com.mmigroup.radiosupport.TDCDMA": false,
+      "com.mmigroup.radiosupport.WCDMA": true,
+      "com.mmigroup.radiosupport.TDD": true,
+      "com.mmigroup.radiosupport.FDD": true
+    }
+  },
+  "P81081DA5": {
     "call": {
       "com.mmigroup.radiosupport.GSM": true,
       "com.mmigroup.radiosupport.CDMA": false,
@@ -181,7 +204,7 @@
     "KeyBox_Written": true,
     "Attestation": true,
     "Widewine": false,
-    "CountryCode": true,
+    "CountryCode": false,
     "Flash": true,
     "Flash_fw": true,
     "EFS_HW_Ver": true,
@@ -191,7 +214,21 @@
     "EFS_BT_MAC": true,
     "EFS_WIFI_MAC": true,
     "EFS_PBA_SN": true,
-    "EFS_PROD_SN": true
+    "EFS_PROD_SN": true,
+    "RF_CALI_DATE": true,
+    "camera_match": false
+  },
+  "camera_match": {
+    "support_camera": [
+      "MainCamera",
+      "Camera_Main2"
+    ],
+    "camera_id": [
+      [
+        "hi846",
+        "gc2375a"
+      ]
+    ]
   },
   "audioConfig": {
     "ColseTheAudioChannelWaittingTime": 10
@@ -272,7 +309,8 @@
         "audioConfig": [
           "mmitest=on;inputdevice=mainmic",
           "mmitest=on;outputdevice=speaker"
-        ]
+        ],
+        "markedWords": "mainmictoSpeaker_speakernotify"
       },
       "oldAct": [
         "HMIC_HSPK_LOOPBACK"
@@ -288,7 +326,7 @@
           "mmitest=on;inputdevice=mainmic",
           "mmitest=on;outputdevice=speaker_left"
         ],
-        "markedWords": "mainmictoSpeaker1_speakernotify"
+        "markedWords": "mainmictoSpeakerLeft_speakernotify"
       },
       "oldAct": [
         "HMIC_HSPK_LOOPBACK"
@@ -511,7 +549,7 @@
     },
     "FM": {
       "support": false,
-      "action": "com.mmigroup.action.FM",
+      "action": "com.mmigroup.action.FM_LG",
       "support_autoTest_autopass": false,
       "paramconfig": {
         "volume_rate": 0.8,
@@ -545,7 +583,9 @@
       "paramconfig": {
         "cameraId": 1,
         "support_takepicture": true,
+        "support_cameraCheck_for_8bit": true,
         "takepicture_not_save_picture": true,
+        "camera_Rotation":0,
         "support_cameraCheck": true
       },
       "oldAct": [
@@ -563,9 +603,11 @@
       "paramconfig": {
         "cameraId": 0,
         "support_takepicture": true,
+        "support_cameraCheck_for_8bit": true,
         "takepicture_not_save_picture": true,
         "auto_takepicture": false,
         "is_open_flashLight": true,
+        "camera_Rotation":0,
         "support_cameraCheck": true
       },
       "oldAct": [
@@ -713,7 +755,7 @@
     },
     "LCD": {
       "support": true,
-      "action": "com.mmigroup.action.LCDUP",
+      "action": "com.mmigroup.action.LCD",
       "automatic": false,
       "support_autoTest_autopass": false,
       "paramconfig": {
@@ -812,8 +854,9 @@
       "action": "com.mmigroup.action.BACKLIGHT",
       "automatic": false,
       "paramconfig": {
+        "sleepTime":2500,
         "brightness": [
-          1,
+          10,
           255
         ]
       },
@@ -1304,7 +1347,7 @@
           "max": 4500
         },
         "temp": {
-          "min": -200,
+          "min": 0,
           "max": 800
         },
         "ChargerVoltage": {
@@ -1397,6 +1440,12 @@
     },
     "InfraredLed": {
       "support": false
+    },
+    "CpuId": {
+      "support": true
+    },
+    "EmmcId": {
+      "support": true
     }
   }
 }

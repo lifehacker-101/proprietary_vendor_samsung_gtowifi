@@ -82,6 +82,12 @@ special_mode_mask values:
       <ISPCommon>hi846_front_shinetech_common</ISPCommon>
       <PostProc>hi846_front_shinetech_postproc</PostProc>
       <CPPPreview>hi846_front_shinetech_cpp_preview</CPPPreview>
+ <!-- +bug458858 maliping.wt, add, 2019/07/19,camera chromatix distinction
+#if 1 //CHROMATIX_DISTINCTION -->
+       <CPPSnapshot_HDR>hi846_front_shinetech_cpp_snapshot_hdr</CPPSnapshot_HDR>
+       <CPPSnapshot_MFNR>hi846_front_shinetech_cpp_snapshot_mfnr</CPPSnapshot_MFNR>
+ <!--#endif //CHROMATIX_DISTINCTION
+-bug458858 maliping.wt, add, 2019/07/19,camera chromatix distinction-->
       <CPPSnapshot>hi846_front_shinetech_cpp_snapshot</CPPSnapshot>
       <CPPLiveshot>hi846_front_shinetech_cpp_liveshot</CPPLiveshot>
     </ChromatixName>
@@ -92,6 +98,9 @@ special_mode_mask values:
       <ISPSnapshot>hi846_front_shinetech_snapshot</ISPSnapshot>
       <ISPVideo>hi846_front_shinetech_default_video</ISPVideo>
       <CPPVideo>hi846_front_shinetech_cpp_video</CPPVideo>
+ <!-- +P191030-07143,yinjie.wt,20191107,modify,for line video call low gain with chromatix distinction -->
+      <A3Preview_LINE>hi846_front_shinetech_line_preview_3a</A3Preview_LINE>
+ <!-- -P191030-07143,yinjie.wt,20191107,modify,for line video call low gain with chromatix distinction-->
       <A3Preview>hi846_front_shinetech_zsl_preview_3a</A3Preview>
       <A3Video>hi846_front_shinetech_zsl_video_3a</A3Video>
     </ChromatixName>
@@ -100,6 +109,9 @@ special_mode_mask values:
       <ISPSnapshot>hi846_front_shinetech_preview</ISPSnapshot>
       <ISPVideo>hi846_front_shinetech_preview</ISPVideo>
       <CPPVideo>hi846_front_shinetech_cpp_video</CPPVideo>
+  <!-- +P191030-07143,yinjie.wt,20191107,modify,for line video call low gain with chromatix distinction -->
+      <A3Preview_LINE>hi846_front_shinetech_line_preview_3a</A3Preview_LINE>
+ <!-- -P191030-07143,yinjie.wt,20191107,modify,for line video call low gain with chromatix distinction-->
       <A3Preview>hi846_front_shinetech_default_preview_3a</A3Preview>
       <A3Video>hi846_front_shinetech_default_video_3a</A3Video>
     </ChromatixName>
