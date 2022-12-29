@@ -31,8 +31,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtowifi/proprietary/vendor/lib/vendor.samsung.hardware.biometrics.face@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.biometrics.face@2.0.so \
     vendor/samsung/gtowifi/proprietary/vendor/lib/vendor.samsung.hardware.camera.device@5.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.camera.device@5.0.so \
     vendor/samsung/gtowifi/proprietary/vendor/lib/vendor.samsung.hardware.camera.provider@4.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.camera.provider@4.0.so \
-    vendor/samsung/gtowifi/proprietary/vendor/lib/vendor.samsung.hardware.wifi.hostapd@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.wifi.hostapd@3.0.so \
-    vendor/samsung/gtowifi/proprietary/vendor/lib/vendor.samsung.hardware.wifi@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.wifi@2.0.so \
     vendor/samsung/gtowifi/proprietary/lib64/libFileMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libFileMux.so \
     vendor/samsung/gtowifi/proprietary/lib64/libOmxMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libOmxMux.so \
     vendor/samsung/gtowifi/proprietary/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so \
@@ -45,8 +43,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtowifi/proprietary/vendor/lib64/libssl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssl.so \
     vendor/samsung/gtowifi/proprietary/vendor/lib64/libwcnftms.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwcnftms.so \
     vendor/samsung/gtowifi/proprietary/vendor/lib64/vendor.samsung.hardware.biometrics.face@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.biometrics.face@2.0.so \
-    vendor/samsung/gtowifi/proprietary/vendor/lib64/vendor.samsung.hardware.wifi.hostapd@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.wifi.hostapd@3.0.so \
-    vendor/samsung/gtowifi/proprietary/vendor/lib64/vendor.samsung.hardware.wifi@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.wifi@2.0.so \
     vendor/samsung/gtowifi/proprietary/system_ext/etc/permissions/audiosphere.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/audiosphere.xml \
     vendor/samsung/gtowifi/proprietary/system_ext/etc/permissions/embms.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/embms.xml \
     vendor/samsung/gtowifi/proprietary/system_ext/etc/permissions/izat.xt.srv.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/izat.xt.srv.xml \
@@ -152,6 +148,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtowifi/proprietary/vendor/bin/hw/android.hardware.keymaster@3.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@3.0-service-qti \
     vendor/samsung/gtowifi/proprietary/vendor/bin/hw/android.hardware.keymaster@4.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@4.0-service-qti \
     vendor/samsung/gtowifi/proprietary/vendor/bin/hw/android.hardware.sensors@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.sensors@1.0-service \
+    vendor/samsung/gtowifi/proprietary/vendor/bin/hw/android.hardware.wifi@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.wifi@1.0-service \
     vendor/samsung/gtowifi/proprietary/vendor/bin/hw/interfaces.factoryInterface@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/interfaces.factoryInterface@1.0-service \
     vendor/samsung/gtowifi/proprietary/vendor/bin/hw/macloader:$(TARGET_COPY_OUT_VENDOR)/bin/hw/macloader \
     vendor/samsung/gtowifi/proprietary/vendor/bin/hw/mfgloader:$(TARGET_COPY_OUT_VENDOR)/bin/hw/mfgloader \
@@ -165,6 +162,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtowifi/proprietary/vendor/bin/hw/vendor.samsung.hardware.light-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.light-service \
     vendor/samsung/gtowifi/proprietary/vendor/bin/hw/vendor.samsung.hardware.miscpower@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.miscpower@2.0-service \
     vendor/samsung/gtowifi/proprietary/vendor/bin/hw/vendor.samsung.hardware.vibrator@2.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.vibrator@2.2-service \
+    vendor/samsung/gtowifi/proprietary/vendor/bin/hw/vendor.samsung.hardware.wifi@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.wifi@2.0-service \
     vendor/samsung/gtowifi/proprietary/vendor/bin/irsc_util:$(TARGET_COPY_OUT_VENDOR)/bin/irsc_util \
     vendor/samsung/gtowifi/proprietary/vendor/bin/loc_launcher:$(TARGET_COPY_OUT_VENDOR)/bin/loc_launcher \
     vendor/samsung/gtowifi/proprietary/vendor/bin/lowi-server:$(TARGET_COPY_OUT_VENDOR)/bin/lowi-server \
@@ -323,6 +321,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtowifi/proprietary/vendor/etc/init/android.hardware.health@2.1-service-samsung.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.health@2.1-service-samsung.rc \
     vendor/samsung/gtowifi/proprietary/vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.0-service-qti.rc \
     vendor/samsung/gtowifi/proprietary/vendor/etc/init/android.hardware.sensors@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@1.0-service.rc \
+    vendor/samsung/gtowifi/proprietary/vendor/etc/init/android.hardware.wifi@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi@1.0-service.rc \
     vendor/samsung/gtowifi/proprietary/vendor/etc/init/factorybsp_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/factorybsp_service.rc \
     vendor/samsung/gtowifi/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
     vendor/samsung/gtowifi/proprietary/vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.adsprpc-guestos-service.rc \
@@ -333,7 +332,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtowifi/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc \
     vendor/samsung/gtowifi/proprietary/vendor/etc/init/vendor.samsung.hardware.miscpower@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.miscpower@2.0-service.rc \
     vendor/samsung/gtowifi/proprietary/vendor/etc/init/vendor.samsung.hardware.vibrator@2.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.vibrator@2.2-service.rc \
+    vendor/samsung/gtowifi/proprietary/vendor/etc/init/vendor.samsung.hardware.wifi@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.wifi@2.0-service.rc \
     vendor/samsung/gtowifi/proprietary/vendor/etc/init/wifi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wifi.rc \
+    vendor/samsung/gtowifi/proprietary/vendor/etc/init/wifi_qcom.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wifi_qcom.rc \
     vendor/samsung/gtowifi/proprietary/vendor/etc/lm/AdaptLaunchFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/AdaptLaunchFeature.xml \
     vendor/samsung/gtowifi/proprietary/vendor/etc/media_codecs_dolby_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_dolby_audio.xml \
     vendor/samsung/gtowifi/proprietary/vendor/etc/mmigroup/CommonParam.json:$(TARGET_COPY_OUT_VENDOR)/etc/mmigroup/CommonParam.json \
@@ -368,7 +369,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtowifi/proprietary/vendor/etc/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf \
     vendor/samsung/gtowifi/proprietary/vendor/etc/somxreg.conf:$(TARGET_COPY_OUT_VENDOR)/etc/somxreg.conf \
     vendor/samsung/gtowifi/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
-    vendor/samsung/gtowifi/proprietary/vendor/etc/wlan_common_rc:$(TARGET_COPY_OUT_VENDOR)/etc/wlan_common_rc \
     vendor/samsung/gtowifi/proprietary/vendor/etc/wt_cust_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wt_cust_audio.xml \
     vendor/samsung/gtowifi/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
     vendor/samsung/gtowifi/proprietary/vendor/firmware/a300_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a300_pfp.fw \
@@ -1836,6 +1836,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtowifi/proprietary/vendor/lib64/vendor.samsung.hardware.vibrator@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.vibrator@2.0.so \
     vendor/samsung/gtowifi/proprietary/vendor/lib64/vendor.samsung.hardware.vibrator@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.vibrator@2.1.so \
     vendor/samsung/gtowifi/proprietary/vendor/lib64/vendor.samsung.hardware.vibrator@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.vibrator@2.2.so \
+    vendor/samsung/gtowifi/proprietary/vendor/lib64/vendor.samsung.hardware.wifi.hostapd@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.wifi.hostapd@3.0.so \
     vendor/samsung/gtowifi/proprietary/vendor/lib64/vendor.samsung.hardware.wifi.supplicant@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.wifi.supplicant@3.0.so \
     vendor/samsung/gtowifi/proprietary/vendor/lib64/vendor.samsung.hardware.wifi@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.wifi@2.0.so \
     vendor/samsung/gtowifi/proprietary/vendor/lib64/vendor.samsung.hardware.wifi@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.wifi@2.1.so
@@ -1848,5 +1849,7 @@ PRODUCT_PACKAGES += \
     TimeService \
     android.hardware.gnss@2.1-service-qti \
     android.hardware.health@2.1-samsung \
+    android.hardware.wifi@1.0-service \
     manifest_android.hardware.drm@1.3-service.widevine \
-    vendor.samsung.hardware.wifi.hostapd
+    vendor.samsung.hardware.wifi.hostapd \
+    vendor.samsung.hardware.wifi@2.0-service
