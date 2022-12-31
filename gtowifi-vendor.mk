@@ -317,6 +317,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtowifi/proprietary/vendor/etc/init/android.hardware.health@2.1-service-samsung.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.health@2.1-service-samsung.rc \
     vendor/samsung/gtowifi/proprietary/vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.0-service-qti.rc \
     vendor/samsung/gtowifi/proprietary/vendor/etc/init/factorybsp_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/factorybsp_service.rc \
+    vendor/samsung/gtowifi/proprietary/vendor/etc/init/lights-default-sec.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/lights-default-sec.rc \
     vendor/samsung/gtowifi/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
     vendor/samsung/gtowifi/proprietary/vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.adsprpc-guestos-service.rc \
     vendor/samsung/gtowifi/proprietary/vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc \
@@ -1812,4 +1813,5 @@ PRODUCT_PACKAGES += \
     TimeService \
     android.hardware.gnss@2.1-service-qti \
     android.hardware.health@2.1-samsung \
+    lights-default-sec \
     manifest_android.hardware.drm@1.3-service.widevine
