@@ -136,7 +136,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtowifi/proprietary/vendor/bin/diag_uart_log:$(TARGET_COPY_OUT_VENDOR)/bin/diag_uart_log \
     vendor/samsung/gtowifi/proprietary/vendor/bin/dspservice:$(TARGET_COPY_OUT_VENDOR)/bin/dspservice \
     vendor/samsung/gtowifi/proprietary/vendor/bin/e_loop:$(TARGET_COPY_OUT_VENDOR)/bin/e_loop \
-    vendor/samsung/gtowifi/proprietary/vendor/bin/ftmdaemon:$(TARGET_COPY_OUT_VENDOR)/bin/ftmdaemon \
     vendor/samsung/gtowifi/proprietary/vendor/bin/hal_proxy_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/hal_proxy_daemon \
     vendor/samsung/gtowifi/proprietary/vendor/bin/hbtp_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/hbtp_daemon \
     vendor/samsung/gtowifi/proprietary/vendor/bin/hvdcp_opti:$(TARGET_COPY_OUT_VENDOR)/bin/hvdcp_opti \
@@ -320,7 +319,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtowifi/proprietary/vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss@2.1-service-qti.rc \
     vendor/samsung/gtowifi/proprietary/vendor/etc/init/android.hardware.health@2.1-service-samsung.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.health@2.1-service-samsung.rc \
     vendor/samsung/gtowifi/proprietary/vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.0-service-qti.rc \
-    vendor/samsung/gtowifi/proprietary/vendor/etc/init/factorybsp_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/factorybsp_service.rc \
     vendor/samsung/gtowifi/proprietary/vendor/etc/init/lights-default-sec.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/lights-default-sec.rc \
     vendor/samsung/gtowifi/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
     vendor/samsung/gtowifi/proprietary/vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.adsprpc-guestos-service.rc \
@@ -337,26 +335,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtowifi/proprietary/vendor/etc/lm/AdaptLaunchFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/AdaptLaunchFeature.xml \
     vendor/samsung/gtowifi/proprietary/vendor/etc/lowi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/lowi.conf \
     vendor/samsung/gtowifi/proprietary/vendor/etc/media_codecs_dolby_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_dolby_audio.xml \
-    vendor/samsung/gtowifi/proprietary/vendor/etc/mmigroup/CommonParam.json:$(TARGET_COPY_OUT_VENDOR)/etc/mmigroup/CommonParam.json \
-    vendor/samsung/gtowifi/proprietary/vendor/etc/mmigroup/MMIGroupADBCmdTest.json:$(TARGET_COPY_OUT_VENDOR)/etc/mmigroup/MMIGroupADBCmdTest.json \
-    vendor/samsung/gtowifi/proprietary/vendor/etc/mmigroup/MMIGroupASAutoTest.json:$(TARGET_COPY_OUT_VENDOR)/etc/mmigroup/MMIGroupASAutoTest.json \
-    vendor/samsung/gtowifi/proprietary/vendor/etc/mmigroup/MMIGroupAudioAta.json:$(TARGET_COPY_OUT_VENDOR)/etc/mmigroup/MMIGroupAudioAta.json \
-    vendor/samsung/gtowifi/proprietary/vendor/etc/mmigroup/MMIGroupAudioManual.json:$(TARGET_COPY_OUT_VENDOR)/etc/mmigroup/MMIGroupAudioManual.json \
-    vendor/samsung/gtowifi/proprietary/vendor/etc/mmigroup/MMIGroupCameraAta.json:$(TARGET_COPY_OUT_VENDOR)/etc/mmigroup/MMIGroupCameraAta.json \
-    vendor/samsung/gtowifi/proprietary/vendor/etc/mmigroup/MMIGroupCameraManual.json:$(TARGET_COPY_OUT_VENDOR)/etc/mmigroup/MMIGroupCameraManual.json \
-    vendor/samsung/gtowifi/proprietary/vendor/etc/mmigroup/MMIGroupIQC.json:$(TARGET_COPY_OUT_VENDOR)/etc/mmigroup/MMIGroupIQC.json \
-    vendor/samsung/gtowifi/proprietary/vendor/etc/mmigroup/MMIGroupMmiAta.json:$(TARGET_COPY_OUT_VENDOR)/etc/mmigroup/MMIGroupMmiAta.json \
-    vendor/samsung/gtowifi/proprietary/vendor/etc/mmigroup/MMIGroupMmiAtaManual.json:$(TARGET_COPY_OUT_VENDOR)/etc/mmigroup/MMIGroupMmiAtaManual.json \
-    vendor/samsung/gtowifi/proprietary/vendor/etc/mmigroup/MMIGroupMmiManual.json:$(TARGET_COPY_OUT_VENDOR)/etc/mmigroup/MMIGroupMmiManual.json \
-    vendor/samsung/gtowifi/proprietary/vendor/etc/mmigroup/MMIGroupNormal.json:$(TARGET_COPY_OUT_VENDOR)/etc/mmigroup/MMIGroupNormal.json \
-    vendor/samsung/gtowifi/proprietary/vendor/etc/mmigroup/MMIGroupPcbaAta.json:$(TARGET_COPY_OUT_VENDOR)/etc/mmigroup/MMIGroupPcbaAta.json \
-    vendor/samsung/gtowifi/proprietary/vendor/etc/mmigroup/MMIGroupPcbaManual.json:$(TARGET_COPY_OUT_VENDOR)/etc/mmigroup/MMIGroupPcbaManual.json \
-    vendor/samsung/gtowifi/proprietary/vendor/etc/mmigroup/MMIGroupSensorAta.json:$(TARGET_COPY_OUT_VENDOR)/etc/mmigroup/MMIGroupSensorAta.json \
-    vendor/samsung/gtowifi/proprietary/vendor/etc/mmigroup/MMIGroupSensorManual.json:$(TARGET_COPY_OUT_VENDOR)/etc/mmigroup/MMIGroupSensorManual.json \
-    vendor/samsung/gtowifi/proprietary/vendor/etc/mmigroup/MainMenuConfig.json:$(TARGET_COPY_OUT_VENDOR)/etc/mmigroup/MainMenuConfig.json \
-    vendor/samsung/gtowifi/proprietary/vendor/etc/mmigroup/factoryInterfaceConfig.json:$(TARGET_COPY_OUT_VENDOR)/etc/mmigroup/factoryInterfaceConfig.json \
-    vendor/samsung/gtowifi/proprietary/vendor/etc/mmigroup/rec.wav:$(TARGET_COPY_OUT_VENDOR)/etc/mmigroup/rec.wav \
-    vendor/samsung/gtowifi/proprietary/vendor/etc/mmigroup/spk.wav:$(TARGET_COPY_OUT_VENDOR)/etc/mmigroup/spk.wav \
     vendor/samsung/gtowifi/proprietary/vendor/etc/perf/commonresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonresourceconfigs.xml \
     vendor/samsung/gtowifi/proprietary/vendor/etc/perf/perf-profile0.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perf-profile0.conf \
     vendor/samsung/gtowifi/proprietary/vendor/etc/perf/perf-profile1.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perf-profile1.conf \
@@ -1254,6 +1232,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtowifi/proprietary/vendor/lib/libmmjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg.so \
     vendor/samsung/gtowifi/proprietary/vendor/lib/libmmjpeg_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg_interface.so \
     vendor/samsung/gtowifi/proprietary/vendor/lib/libmmlib2d_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmlib2d_interface.so \
+    vendor/samsung/gtowifi/proprietary/vendor/lib/libmmosal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmosal.so \
     vendor/samsung/gtowifi/proprietary/vendor/lib/libmmqjpeg_codec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmqjpeg_codec.so \
     vendor/samsung/gtowifi/proprietary/vendor/lib/libmmqjpegdma.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmqjpegdma.so \
     vendor/samsung/gtowifi/proprietary/vendor/lib/libmulawdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmulawdec.so \
@@ -1301,7 +1280,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtowifi/proprietary/vendor/lib/libqti-perfd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-perfd.so \
     vendor/samsung/gtowifi/proprietary/vendor/lib/libqti-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-util.so \
     vendor/samsung/gtowifi/proprietary/vendor/lib/libqti-utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-utils.so \
-    vendor/samsung/gtowifi/proprietary/vendor/lib/libqti_vndfwk_detect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti_vndfwk_detect.so \
     vendor/samsung/gtowifi/proprietary/vendor/lib/libqtikeymaster4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqtikeymaster4.so \
     vendor/samsung/gtowifi/proprietary/vendor/lib/librcc.so:$(TARGET_COPY_OUT_VENDOR)/lib/librcc.so \
     vendor/samsung/gtowifi/proprietary/vendor/lib/libremosaic_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libremosaic_daemon.so \
@@ -1626,6 +1604,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtowifi/proprietary/vendor/lib64/libmmcamera_faceproc2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_faceproc2.so \
     vendor/samsung/gtowifi/proprietary/vendor/lib64/libmmcamera_tintless_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_tintless_algo.so \
     vendor/samsung/gtowifi/proprietary/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_tintless_bg_pca_algo.so \
+    vendor/samsung/gtowifi/proprietary/vendor/lib64/libmmosal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmosal.so \
     vendor/samsung/gtowifi/proprietary/vendor/lib64/libmulawdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmulawdec.so \
     vendor/samsung/gtowifi/proprietary/vendor/lib64/libnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr.so \
     vendor/samsung/gtowifi/proprietary/vendor/lib64/libnetmgr_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr_common.so \
@@ -1666,7 +1645,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtowifi/proprietary/vendor/lib64/libqti-perfd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-perfd.so \
     vendor/samsung/gtowifi/proprietary/vendor/lib64/libqti-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-util.so \
     vendor/samsung/gtowifi/proprietary/vendor/lib64/libqti-utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-utils.so \
-    vendor/samsung/gtowifi/proprietary/vendor/lib64/libqti_vndfwk_detect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti_vndfwk_detect.so \
     vendor/samsung/gtowifi/proprietary/vendor/lib64/libqtikeymaster4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqtikeymaster4.so \
     vendor/samsung/gtowifi/proprietary/vendor/lib64/librcc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librcc.so \
     vendor/samsung/gtowifi/proprietary/vendor/lib64/libreffeature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libreffeature.so \
