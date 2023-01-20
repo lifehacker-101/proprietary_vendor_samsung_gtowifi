@@ -6,7 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/gtowifi
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/gtowifi/proprietary/vendor/lib64/libbtconfigstore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbtconfigstore.so \
     vendor/samsung/gtowifi/proprietary/etc/firmware/AbovCapSense.BIN:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/AbovCapSense.BIN \
     vendor/samsung/gtowifi/proprietary/etc/firmware/aw87319l_rcv.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/aw87319l_rcv.bin \
     vendor/samsung/gtowifi/proprietary/etc/firmware/aw87319l_spk.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/aw87319l_spk.bin \
@@ -16,15 +15,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtowifi/proprietary/etc/firmware/aw87319r_vspk.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/aw87319r_vspk.bin \
     vendor/samsung/gtowifi/proprietary/etc/firmware/ice40.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/ice40.bin \
     vendor/samsung/gtowifi/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/wlan/prima/WCNSS_cfg.dat \
-    vendor/samsung/gtowifi/proprietary/vendor/lib/libhumantracking_util.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhumantracking_util.camera.samsung.so \
-    vendor/samsung/gtowifi/proprietary/vendor/lib/libsmart_cropping.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmart_cropping.camera.samsung.so \
-    vendor/samsung/gtowifi/proprietary/vendor/lib/vendor.samsung.hardware.biometrics.face@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.biometrics.face@2.0.so \
-    vendor/samsung/gtowifi/proprietary/vendor/lib/vendor.samsung.hardware.camera.device@5.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.camera.device@5.0.so \
-    vendor/samsung/gtowifi/proprietary/vendor/lib/vendor.samsung.hardware.camera.provider@4.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.camera.provider@4.0.so \
     vendor/samsung/gtowifi/proprietary/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so \
-    vendor/samsung/gtowifi/proprietary/vendor/lib64/libhumantracking_util.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhumantracking_util.camera.samsung.so \
-    vendor/samsung/gtowifi/proprietary/vendor/lib64/libsmart_cropping.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsmart_cropping.camera.samsung.so \
-    vendor/samsung/gtowifi/proprietary/vendor/lib64/vendor.samsung.hardware.biometrics.face@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.biometrics.face@2.0.so \
     vendor/samsung/gtowifi/proprietary/system_ext/etc/permissions/audiosphere.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/audiosphere.xml \
     vendor/samsung/gtowifi/proprietary/system_ext/etc/permissions/izat.xt.srv.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/izat.xt.srv.xml \
     vendor/samsung/gtowifi/proprietary/system_ext/lib/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/com.qualcomm.qti.ant@1.0.so \
@@ -1239,7 +1230,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtowifi/proprietary/vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.bluetooth_sar@1.0.so \
     vendor/samsung/gtowifi/proprietary/vendor/lib/vendor.qti.hardware.bluetooth_sar@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.bluetooth_sar@1.1.so \
     vendor/samsung/gtowifi/proprietary/vendor/lib/vendor.qti.hardware.cacert@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.cacert@1.0.so \
-    vendor/samsung/gtowifi/proprietary/vendor/lib/vendor.qti.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.camera.device@1.0.so \
     vendor/samsung/gtowifi/proprietary/vendor/lib/vendor.qti.hardware.cvp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.cvp@1.0.so \
     vendor/samsung/gtowifi/proprietary/vendor/lib/vendor.qti.hardware.data.connection@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.connection@1.0.so \
     vendor/samsung/gtowifi/proprietary/vendor/lib/vendor.qti.hardware.data.connection@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.connection@1.1.so \
@@ -1340,7 +1330,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtowifi/proprietary/vendor/lib64/libaudioalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioalsa.so \
     vendor/samsung/gtowifi/proprietary/vendor/lib64/libbase64.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbase64.so \
     vendor/samsung/gtowifi/proprietary/vendor/lib64/libbatching.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbatching.so \
-    vendor/samsung/gtowifi/proprietary/vendor/lib64/libbluetooth_audio_session_qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_audio_session_qti.so \
     vendor/samsung/gtowifi/proprietary/vendor/lib64/libbtnv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbtnv.so \
     vendor/samsung/gtowifi/proprietary/vendor/lib64/libc2d30-a3xx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc2d30-a3xx.so \
     vendor/samsung/gtowifi/proprietary/vendor/lib64/libc2d30_bltlib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc2d30_bltlib.so \
@@ -1503,7 +1492,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtowifi/proprietary/vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so \
     vendor/samsung/gtowifi/proprietary/vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so \
     vendor/samsung/gtowifi/proprietary/vendor/lib64/vendor.qti.hardware.cacert@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.cacert@1.0.so \
-    vendor/samsung/gtowifi/proprietary/vendor/lib64/vendor.qti.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.camera.device@1.0.so \
     vendor/samsung/gtowifi/proprietary/vendor/lib64/vendor.qti.hardware.cvp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.cvp@1.0.so \
     vendor/samsung/gtowifi/proprietary/vendor/lib64/vendor.qti.hardware.data.connection@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.connection@1.0.so \
     vendor/samsung/gtowifi/proprietary/vendor/lib64/vendor.qti.hardware.data.connection@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.connection@1.1.so \
