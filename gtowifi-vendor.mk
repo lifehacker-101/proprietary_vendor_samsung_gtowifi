@@ -116,22 +116,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtowifi/proprietary/vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
     vendor/samsung/gtowifi/proprietary/vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
     vendor/samsung/gtowifi/proprietary/vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_workspaceFile.qwsp \
-    vendor/samsung/gtowifi/proprietary/vendor/etc/acdbdata/MTP_chc/MTP_chc_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP_chc/MTP_chc_Bluetooth_cal.acdb \
-    vendor/samsung/gtowifi/proprietary/vendor/etc/acdbdata/MTP_chc/MTP_chc_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP_chc/MTP_chc_General_cal.acdb \
-    vendor/samsung/gtowifi/proprietary/vendor/etc/acdbdata/MTP_chc/MTP_chc_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP_chc/MTP_chc_Global_cal.acdb \
-    vendor/samsung/gtowifi/proprietary/vendor/etc/acdbdata/MTP_chc/MTP_chc_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP_chc/MTP_chc_Handset_cal.acdb \
-    vendor/samsung/gtowifi/proprietary/vendor/etc/acdbdata/MTP_chc/MTP_chc_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP_chc/MTP_chc_Hdmi_cal.acdb \
-    vendor/samsung/gtowifi/proprietary/vendor/etc/acdbdata/MTP_chc/MTP_chc_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP_chc/MTP_chc_Headset_cal.acdb \
-    vendor/samsung/gtowifi/proprietary/vendor/etc/acdbdata/MTP_chc/MTP_chc_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP_chc/MTP_chc_Speaker_cal.acdb \
-    vendor/samsung/gtowifi/proprietary/vendor/etc/acdbdata/MTP_chc/MTP_chc_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP_chc/MTP_chc_workspaceFile.qwsp \
-    vendor/samsung/gtowifi/proprietary/vendor/etc/acdbdata/MTP_sea/MTP_sea_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP_sea/MTP_sea_Bluetooth_cal.acdb \
-    vendor/samsung/gtowifi/proprietary/vendor/etc/acdbdata/MTP_sea/MTP_sea_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP_sea/MTP_sea_General_cal.acdb \
-    vendor/samsung/gtowifi/proprietary/vendor/etc/acdbdata/MTP_sea/MTP_sea_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP_sea/MTP_sea_Global_cal.acdb \
-    vendor/samsung/gtowifi/proprietary/vendor/etc/acdbdata/MTP_sea/MTP_sea_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP_sea/MTP_sea_Handset_cal.acdb \
-    vendor/samsung/gtowifi/proprietary/vendor/etc/acdbdata/MTP_sea/MTP_sea_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP_sea/MTP_sea_Hdmi_cal.acdb \
-    vendor/samsung/gtowifi/proprietary/vendor/etc/acdbdata/MTP_sea/MTP_sea_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP_sea/MTP_sea_Headset_cal.acdb \
-    vendor/samsung/gtowifi/proprietary/vendor/etc/acdbdata/MTP_sea/MTP_sea_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP_sea/MTP_sea_Speaker_cal.acdb \
-    vendor/samsung/gtowifi/proprietary/vendor/etc/acdbdata/MTP_sea/MTP_sea_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP_sea/MTP_sea_workspaceFile.qwsp \
     vendor/samsung/gtowifi/proprietary/vendor/etc/cacert_location.pem:$(TARGET_COPY_OUT_VENDOR)/etc/cacert_location.pem \
     vendor/samsung/gtowifi/proprietary/vendor/etc/camera/bf2253L_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/bf2253L_chromatix.xml \
     vendor/samsung/gtowifi/proprietary/vendor/etc/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config.xml \
